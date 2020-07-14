@@ -376,26 +376,23 @@ input::-ms-reveal {
     display: none
 }
 
-
-/*  */
-
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-    color: #fff
+    color: #999
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-    color: #fff
+    color: #999
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-    color: #fff
+    color: #999
 }
 
 .placeholder {
-    color: #fff
+    color: #999
 }
 
 table {
