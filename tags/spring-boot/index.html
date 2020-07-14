@@ -30,7 +30,7 @@
   <style type="text/css">
     
     #container.show {
-      background: linear-gradient(200deg,#ccc,#000);
+      background: linear-gradient(200deg,#CFC8C8,#9F9898);
     }
   </style>
   
@@ -68,7 +68,7 @@
     
         
 
-            <div class="overlay" style="background: rgba(0,0,0,0.5); z-index:-1"></div>
+            <div class="overlay" style="background: #4d4d4d;background: url('/img/avatar.1gif') no-repeat ; z-index:-1"></div>
 
             <div class="intrude-less">
                 <header id="header" class="inner">
@@ -233,7 +233,7 @@
             </div>
     </div>
 
-    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse" style="background: url(/images/background/other/44.jpg) no-repeat 100%;background-size:cover;opacity:0.7;filter:alpha(opacity=70);">
+    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse" style="background: url(/images/background/other/44.jpg) no-repeat 100%;background-size:cover;opacity:0.8;filter:alpha(opacity=80);">
 
       
       
@@ -252,7 +252,7 @@
       
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: rgba(0,0,0,0.5)"></div>
+  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -530,15 +530,15 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">spring-boot</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">java</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
               </li>
             
             <div class="clearfix"></div>
@@ -768,7 +768,7 @@
 <script type="text/javascript" src="/plugins/activate-power-mode/activate-power-mode.js"></script>
 <script>
   POWERMODE.colorful = true; // make power mode colorful
-  POWERMODE.shake = false; // turn off shake
+  POWERMODE.shake = true; // turn off shake
   document.body.addEventListener('input', POWERMODE);
 </script>
 
@@ -857,12 +857,11 @@
 
 <!--代码雨-->
 
+  <!-- 数字雨 -->
+  <script type="text/javascript" src="/lib/rain_code.js"></script>
+
 
 <!--动态线条背景-->
-
-  <script type="text/javascript" color="206, 187, 13" opacity="0.9"    src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"
-      zIndex="-1" count="256" >
-  </script>
 
 
 
